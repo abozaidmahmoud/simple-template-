@@ -1,0 +1,429 @@
+body{
+
+		margin:0;
+		height:3000px;
+		background-color:#F7F2F5
+}
+
+.container{
+	width:900px;
+	margin:auto;
+	overflow:hidden
+	
+
+}
+/* start header   */ 
+
+button:hover
+{
+	cursor:pointer
+}
+
+.header .slider{
+	height:400px;
+	background-color:#EEE
+	
+}
+
+.slider  img{
+	width:100%;
+	height:100%;
+	position:relative
+}
+
+
+.slider .l{
+	text-align:center;
+	position:absolute;
+	top:25%;
+	left:45%;
+	width:250px;
+	text-transform:uppercase;
+	color:#232022
+}
+
+.slider .b{
+	
+	position:absolute;
+	top:36%;
+	left:48%;
+	text-transform:uppercase;
+	width:120px;
+	border:1px solid white;
+	padding:10px;
+	background-color:#DDCED8
+	
+	
+}
+
+
+.header .navbar{
+	
+    background-color:#252F31;
+	color:#FFF;
+	overflow:hidden;
+
+	
+}
+
+.navbar a{
+	
+	text-decoration:none;
+	color:white
+}
+
+.header .navbar  h2{
+	float:left;
+	text-transform:uppercase;
+		
+	
+	
+}
+
+.navbar h2:before{
+	
+	content:"F";
+	background-color:#494949;
+	padding:1px 6px;
+	margin-right:10px
+	
+	
+}
+
+.header .navbar h2 span{
+	
+	color:#2ecc71
+}
+
+.header .navbar ul {
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+}
+
+.header .navbar ul li{
+	
+	padding:6px;
+	float:left
+	
+}     /*  end header */
+
+
+/*  start feature */
+
+
+.feature{
+	
+	overflow:hidden
+	
+	
+}
+
+.feature .feat{
+	
+   height:250px;
+   width:33.3333%;
+   float:left	;
+   	
+   margin-top:55px
+   
+}
+
+.feature .feat p{
+	color:#777777;
+	
+}
+
+.feature .feat h2{
+	text-transform:uppercase
+}    /*  end feature */
+
+
+ /*  start about me */
+ .about{
+	 overflow:hidden
+ }
+ 
+ .about .img{
+	 float:left;
+	width:30%
+	 
+	 
+	
+	 
+ }
+ 
+ .about .info{
+	float:left;
+	background-color:#F7F2F5;
+	width:50%;
+	margin-left:80px;
+	color:#888989
+	
+	 
+	  
+	 
+	 
+	
+ }
+ .about .info h2{
+	 text-transform:uppercase;
+	 color:#888989
+	 
+ }
+ .about .info .hoppy{
+	 overflow:hidden
+ }
+ 
+ .about .info .hoppy >div{
+	 float:left;
+	 min-height:50px;
+	 width:50%;
+	 
+	 
+	 
+ }        /*  end about me */
+ 
+ 
+ /*  start me skill*/
+ 
+ .my-skill{
+	 overflow:hidden
+ }
+ 
+ .my-skill .skill{
+	 float:left;
+	 width:50%;
+	 margin-top:30px
+ }
+ 
+ .my-skill .skill h3{
+	 text-transform:uppercase
+ }
+ 
+ .my-skill .skill p{
+	 color:#888989
+ }
+ 
+ .my-skill .skill button{
+	 width:110px;
+	 height:30px;
+	 background-color:white;
+	 border:2px solid #0BB79A;
+	font-size:12px;
+	font-weight:bold;
+	 color:#0BB79A;
+	 padding:5px
+	 
+ }
+ 
+ .my-skill .course{
+	 width:50%;
+	 float:left;
+	  margin-top:30px
+ }
+  
+ .course .linux , .html, .js , .c{
+	 
+	 width:330px;
+	 background-color:#DDD
+ }
+ 
+  .course .linux >div,
+  .course .html >div,
+  .course .js >div,
+  .course .c >div
+  
+  {
+	  
+	  
+	  background-color:#40AD74;
+	  text-align:right;
+	  font-size:15px
+  }
+  .course .linux >div{
+	  width:300px
+  }
+  
+  .course .html >div{
+	  width:250px;
+  }
+ 
+ .course .js >div{
+	 width:175px
+ }
+ 
+ .course .c >div{
+	 width:145px
+ }                /*  end me skill*/
+ 
+ 
+ /* start resume*/
+ .resume{
+	 
+background-color:#EDEAEA;
+ padding-top:40px;
+  padding-bottom:40px;
+  margin-top:20px;
+  text-align:center
+
+
+	 
+ }
+ 
+ .resume h2{
+	 text-transform:uppercase
+ }
+
+ .resume p{
+	 color:#9E9A9	 
+ }
+ 
+ .resume button{
+	 text-transform:uppercase;
+	 width:160px;
+	 height:36px;
+	 background-color:white;
+	 color:#0BB79A;
+	 font-weight:bold;
+	 font-size:11px;
+	 border:2px solid #0BB79A;
+	
+	 
+ }    /* end resume*/
+ 
+ /* start education*/
+.education{
+	overflow:hidden;
+	padding-top:30px
+}
+ 
+ .education .edu,
+ .education .graphic
+ 
+ {
+	 color:#A5A0A0;
+	 float:left;
+	 width:50%
+	 
+	 
+ }
+ .education .edu h2{
+	 text-transform:uppercase;
+	 color:black
+ }
+ 
+ .education .graphic h2,
+ .education .cit h2
+ {
+	 text-transform:uppercase;
+	 color:black
+ }
+ 
+ .education .graphic span,
+ .education .cit span
+ {
+	 background-color:#0BB79A;
+	 color:white;
+	 padding:5px
+	 
+ }
+ 
+ .education .graphic hr,
+ .education .cit hr
+ {
+	padding:7px
+ }
+ 
+ .education .cit{
+	 float:right;
+	 width:50%
+ }
+ 
+ .education .cit p{
+	 color:#A5A0A0
+ }                  /* end education*/
+ 
+ 
+ /*start portfolio*/
+ 
+ .port{
+	 overflow:hidden;
+	  
+ }
+  
+  .port .image{
+	  width:270px
+  }      /*end portfolio*/
+  
+ 
+ /* start contact me */
+ 
+ .contact{
+	 overflow:hidden;
+	 background-color:#353333
+ }
+ 
+  .contact .contact-info,
+  .contact .contact-form{
+	  
+	  float:left;
+	  width:50%;
+	  
+	  
+	  
+  }
+ 
+ 
+ .contact .contact-info h2{ 
+ text-transform:uppercase;
+ 
+
+ }
+ .contact .contact-info  span ,h2{
+	 color:white;
+	 padding-right:15px
+ }
+ 
+ .contact .contact-form input{
+	 
+	 background-color:white;
+	 height:30px;
+	 width:334px
+ }
+ 
+ .contact .contact-form textarea{
+		rows:7;
+		cols:5
+ }
+ 
+ .contact .contact-form button{
+	 color:white;
+	 background-color:#423E3E;
+	 width:125px;
+	 padding:10px;
+	 border:1px solid #423E3E;
+	 font-size:12px;
+	 font-weight:bold;
+	 margin-top:20px;
+	 margin-bottom:40px
+	     
+ }           /* end contact me */
+ 
+/* start copyeigth*/
+
+.copyright{
+	text-align:center;
+	background-color:#1E1D1D;
+	padding-top:60px;
+	padding-bottom:40px;
+	color:#E2DCDC
+	
+	
+}
+
+
+
+/* end copyeigth*/
+ 
